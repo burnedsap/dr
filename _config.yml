@@ -1,0 +1,32 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               Designed Realities
+tagline:             documentation blog
+url:                 https://burnedsap.github.io/dr
+paginate:            1
+baseurl:             https://burnedsap.github.io/dr
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Salil Parekh
+  url:               https://twitter.com/burnedsap
+  email:             pares667@newschool.edu
+
+# Custom vars
+version:             2.1.0
+github:
+  repo:              https://github.com/burnedsap/dr
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
